@@ -63,13 +63,21 @@ def password_check(owner, password):
         return "no data in DB"
 
 
-def gan_running(front_gan_location, filename):
+@app.route("/convert", methods=['POST'])
+def gan_running():
+    front_gan_location = session['front_location']
+    filename = session['filename']
+    hair_style = request.form['hair_style_input']
+    print(filename)
+    print("-------------")
+    print(front_gan_location)
+    print("--------------------2")
     print("Gan is running")
-    pool.apply_async(gan_running2, args=(front_gan_location, filename,))
-    return 1
+    pool.apply_async(gan_running2, args=(front_gan_location, filename, hair_style,))
+    return redirect(url_for('index_main_page'))
 
 
-def gan_running2(dual, filename):
+def gan_running2(dual, filename, hair_style):
     print("Gan is running in apply_async!")
     # subprocess.call(["python","../B_to_A_2.py","static/image/aa"])
 
@@ -127,6 +135,7 @@ def session_save():
         print("image location aligned!")
         session['front_location'] = front_location
         session['front_after'] = front_after
+        session['filename'] = front_filename
         # image location
         print("image saving!")
         # front_image.save('static/image/aa/' + front_image.filename)
@@ -141,7 +150,8 @@ def session_save():
         insert(session['owner'], request.form['password'], front_location, front_after)
         # gan_running()을 돌려서 DB에 이미지 저장
         # gan_running(front_image_gan_location)
-        gan_running('/usr/scr/app/static/image/', front_filename)
+        # gan_running('/usr/scr/app/static/image/', front_filename)
+
         return redirect(url_for('index_main_page'))
 
     except:  # POST 인자값이 비어있는 상태로 request_form을 하면 exception 발생
@@ -204,7 +214,7 @@ def manage_detail():
 
 @app.route("/repre_case.html")
 def repre_case_page():
-    return render_template('repre_case.html', patient_data=session['name'])
+    return render_template('repre_case.html', patient_data=session['owner'])
 
 
 @app.route("/index.html")
