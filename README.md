@@ -15,7 +15,7 @@
 ![스크린샷 2021-01-15 오전 1 17 41](https://user-images.githubusercontent.com/48707020/104618927-a799e880-56d0-11eb-95df-05d84edb7a69.png)  
 
 ### Face Detection  
-![그림1](https://user-images.githubusercontent.com/48707020/104619371-255df400-56d1-11eb-915d-9e8bb48fea4f.png) ![그림2](https://user-images.githubusercontent.com/48707020/104619386-2858e480-56d1-11eb-8318-ac8ee95a9e8c.png)  
+![그림1](https://user-images.githubusercontent.com/48707020/104620469-5ee32f00-56d2-11eb-82e2-4ab4227c7191.png) ![그림2](https://user-images.githubusercontent.com/48707020/104620449-5b4fa800-56d2-11eb-83c2-794a46c82062.png)  
 - Target Image에 Face feature의 좌표를 구한 후 좌표를 바탕으로 Image를 crop한다.
 - Crop Image를 적절한 가공(BGRA 채널로 변환, 투명 배경과 AND 연산 등)을 하여 feature를 담은 mask를 제외한 배경을 투명하게 만든다.
 - RGB채널에 합성하기 위해 BGRA의 alpha 채널 수 만큼 loop를 돌려 합성해준다.
