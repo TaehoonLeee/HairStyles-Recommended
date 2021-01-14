@@ -3,7 +3,10 @@
 ### Pusan National University Computer Science Engineering
 ### Team No. : 43
 ### Team Name : 정컴 F3  
+---------------------------------------------------------------------
+## Contents
+- Recommending Hair Style
 
 ## Recommending Hair Style
 ### Pre-trained Models
-|[face_256x256](https://drive.google.com/open?id=1MTeDchdtcvTWWQAtYvFHKIJLiuvtq49k)    | In-domain GAN trained with [FFHQ](https://github.com/NVlabs/ffhq-dataset) dataset.
+> [face_256x256](https://drive.google.com/open?id=1MTeDchdtcvTWWQAtYvFHKIJLiuvtq49k) In-domain GAN trained with [FFHQ](https://github.com/NVlabs/ffhq-dataset) dataset.
