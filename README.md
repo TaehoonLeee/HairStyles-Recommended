@@ -5,11 +5,11 @@
 ### Team Name : 정컴 F3  
 ---------------------------------------------------------------------
 ## Contents
-- [Architecture](@Architecture)  
-  - [Face Detection](@Face-Detection)  
-- [Recommending Hair Style](@Recommending-Hair-Style)  
-  - [Pre-trained Models](@Pre-trained-Models)  
-  - [Preview](@Preview)  
+- [Architecture](#Architecture)  
+  - [Face Detection](#Face-Detection)  
+- [Recommending Hair Style](#Recommending-Hair-Style)  
+  - [Pre-trained Models](#Pre-trained-Models)  
+  - [Preview](#Preview)  
   
 ## Architecture  
 ![스크린샷 2021-01-15 오전 1 17 41](https://user-images.githubusercontent.com/48707020/104618927-a799e880-56d0-11eb-95df-05d84edb7a69.png)  
