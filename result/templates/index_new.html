@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <title>Login</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+            new_click();
+        });
+
+        function old_submit_clicked(){
+            var owner=document.getElementById('old_owner').value;
+            var password=document.getElementById('old_password').value;
+            if(owner==""){
+                alert("ID를 입력해 주세요.");
+                window.location.href = "/main_page";
+            }
+        }
+        function new_submit_clicked(){
+            var owner=document.getElementById('new_owner').value;
+            if(owner==""){
+                alert("ID를 입력해 주세요.");
+                window.location.href = "/main_page";
+            }
+            var password=document.getElementById('new_password').value;
+        }
+        function new_click(){
+            document.getElementById("new_old").innerHTML = "<form class=\"user\" method='post' enctype='multipart/form-data' action='/session.html'>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                        ID\n" +
+                "                      <input type=\"text\" class=\"form-control\" id=\"new_owner\" name='owner' style=\"display: inline; width: 70%; margin-left: 75px\" placeholder=\"ID\">\n" +
+                "                    </div>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                        Password\n" +
+                "                      <input type=\"password\" class=\"form-control\" id=\"new_password\" name='password' style=\"display: inline; width: 70%; margin-left: 20px\" placeholder=\"password\">\n" +
+                "                    </div>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                      사진 등록\n" +
+                "                          <input type=\"file\" name=\"front_image\" style=\"padding-left: 20px\" id='front_image'>\n" +
+                "                    </div>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                    </div>\n" +
+                "                    <input type='submit' class=\"btn btn-primary btn-user btn-block\" style='margin-top: 30px' value='Register' onclick='new_submit_clicked()'>\n" +
+                "                    <hr>\n" +
+                "                  </form>"
+        }
+        function old_click(){
+            document.getElementById("new_old").innerHTML = "<form class=\"user\" action='/sessionOld.html' method='post'>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                        ID\n" +
+                "                      <input type=\"text\" class=\"form-control\" id=\"old_owner\" name='owner' style=\"display: inline; width: 70%; margin-left: 75px\" placeholder=\"ID\">\n" +
+                "                    </div>\n" +
+                "                    <div class=\"form-group\">\n" +
+                "                        Password\n" +
+                "                      <input type=\"password\" class=\"form-control\" id=\"old_password\" name='password' style=\"display: inline; width: 70%; margin-left: 20px\" placeholder=\"password\">\n" +
+                "                    </div>\n" +
+                "                    <input type='submit' class=\"btn btn-primary btn-user btn-block\" style='margin-top: 30px' value='Login' onclick='old_submit_clicked()'>\n" +
+                "                    \n"+
+                    "</form>"
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-primary">
+
+  <div class="container">
+
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
+
+      <div class="col-xl-6 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="p-5">
+                  <div class="text-center" style="margin-bottom: 10px">
+                      <label for="new_patient"><input type="radio" name="patient" checked id="new_patient" onclick="new_click()"> 신규 유저 &nbsp;</label>
+                      <label for="old_patient"><input type="radio" name="patient" id="old_patient" onclick="old_click()"> 기존 유저</label>
+                  </div>
+                    <div id="new_old">
+                        <!-- replaced by javascript-->
+                    </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="/static/js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>

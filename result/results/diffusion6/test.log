@@ -1,0 +1,35 @@
+[2020-09-10 13:55:33,665][INFO] Building graph.
+[2020-09-10 13:55:34,857][INFO] Setting configuration for optimization.
+[2020-09-10 13:55:39,118][INFO] Start diffusion.
+[2020-09-10 13:55:50,154][INFO] Building graph.
+[2020-09-10 13:55:51,435][INFO] Setting configuration for optimization.
+[2020-09-10 13:55:57,277][INFO] Start Inverting.
+[2020-09-10 13:56:36,986][INFO] Image create successfully!
+[2020-09-10 13:57:34,195][INFO] Building graph.
+[2020-09-10 13:57:35,395][INFO] Setting configuration for optimization.
+[2020-09-10 13:57:39,666][INFO] Start diffusion.
+[2020-09-10 13:57:50,915][INFO] Building graph.
+[2020-09-10 13:57:52,216][INFO] Setting configuration for optimization.
+[2020-09-10 13:57:58,119][INFO] Start Inverting.
+[2020-09-10 13:58:37,771][INFO] Image create successfully!
+[2020-09-10 15:44:31,468][INFO] Building graph.
+[2020-09-10 15:44:32,657][INFO] Setting configuration for optimization.
+[2020-09-10 15:44:36,928][INFO] Start diffusion.
+[2020-09-10 15:44:47,999][INFO] Building graph.
+[2020-09-10 15:44:49,279][INFO] Setting configuration for optimization.
+[2020-09-10 15:44:55,164][INFO] Start Inverting.
+[2020-09-10 15:45:34,406][INFO] Image create successfully!
+[2020-09-10 15:47:02,271][INFO] Building graph.
+[2020-09-10 15:47:03,498][INFO] Setting configuration for optimization.
+[2020-09-10 15:47:07,799][INFO] Start diffusion.
+[2020-09-10 15:47:18,947][INFO] Building graph.
+[2020-09-10 15:47:20,239][INFO] Setting configuration for optimization.
+[2020-09-10 15:47:26,112][INFO] Start Inverting.
+[2020-09-10 15:48:05,915][INFO] Image create successfully!
+[2020-09-10 15:51:56,296][INFO] Building graph.
+[2020-09-10 15:51:57,487][INFO] Setting configuration for optimization.
+[2020-09-10 15:52:01,720][INFO] Start diffusion.
+[2020-09-10 15:52:12,777][INFO] Building graph.
+[2020-09-10 15:52:14,058][INFO] Setting configuration for optimization.
+[2020-09-10 15:52:19,936][INFO] Start Inverting.
+[2020-09-10 15:52:59,341][INFO] Image create successfully!

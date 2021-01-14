@@ -1,0 +1,45 @@
+[2020-09-04 14:50:00,191][INFO] Loading model.
+[2020-09-04 14:50:10,896][INFO] Building graph.
+[2020-09-04 14:50:12,422][INFO] Setting configuration for optimization.
+[2020-09-04 14:50:17,630][INFO] Loading target images and context images.
+[2020-09-04 14:50:17,631][INFO] Start diffusion.
+[2020-09-04 14:53:32,488][INFO] Loading model.
+[2020-09-04 14:53:43,094][INFO] Building graph.
+[2020-09-04 14:53:44,598][INFO] Setting configuration for optimization.
+[2020-09-04 14:53:49,813][INFO] Loading target images and context images.
+[2020-09-04 14:53:49,814][INFO] Start diffusion.
+[2020-09-04 15:08:40,463][INFO] Loading model.
+[2020-09-04 15:08:51,203][INFO] Building graph.
+[2020-09-04 15:08:52,714][INFO] Setting configuration for optimization.
+[2020-09-04 15:08:57,897][INFO] Loading target images and context images.
+[2020-09-04 15:08:57,897][INFO] Start diffusion.
+[2020-09-04 15:10:01,864][INFO] Loading model.
+[2020-09-04 15:10:12,556][INFO] Building graph.
+[2020-09-04 15:10:14,071][INFO] Setting configuration for optimization.
+[2020-09-04 15:10:19,257][INFO] Loading target images and context images.
+[2020-09-04 15:10:19,257][INFO] Start diffusion.
+[2020-09-04 15:25:31,931][INFO] Loading model.
+[2020-09-04 15:25:42,557][INFO] Building graph.
+[2020-09-04 15:25:44,076][INFO] Setting configuration for optimization.
+[2020-09-04 15:25:49,269][INFO] Loading target images and context images.
+[2020-09-04 15:25:49,269][INFO] Start diffusion.
+[2020-09-14 14:13:29,404][INFO] Loading model.
+[2020-09-14 14:13:39,832][INFO] Building graph.
+[2020-09-14 14:13:41,040][INFO] Setting configuration for optimization.
+[2020-09-14 14:13:45,414][INFO] Loading target images and context images.
+[2020-09-14 14:13:45,414][INFO] Start diffusion.
+[2020-09-14 14:17:19,524][INFO] Loading model.
+[2020-09-14 14:17:30,032][INFO] Building graph.
+[2020-09-14 14:17:31,227][INFO] Setting configuration for optimization.
+[2020-09-14 14:17:35,511][INFO] Loading target images and context images.
+[2020-09-14 14:17:35,511][INFO] Start diffusion.
+[2020-09-14 14:27:29,500][INFO] Loading model.
+[2020-09-14 14:27:40,048][INFO] Building graph.
+[2020-09-14 14:27:41,248][INFO] Setting configuration for optimization.
+[2020-09-14 14:27:45,511][INFO] Loading target images and context images.
+[2020-09-14 14:27:45,511][INFO] Start diffusion.
+[2020-09-16 11:39:47,709][INFO] Loading model.
+[2020-09-16 11:39:58,101][INFO] Building graph.
+[2020-09-16 11:39:59,294][INFO] Setting configuration for optimization.
+[2020-09-16 11:40:03,541][INFO] Loading target images and context images.
+[2020-09-16 11:40:03,542][INFO] Start diffusion.

@@ -1,0 +1,5 @@
+[2020-09-16 11:48:02,552][INFO] Loading model.
+[2020-09-16 11:48:13,002][INFO] Building graph.
+[2020-09-16 11:48:14,194][INFO] Setting configuration for optimization.
+[2020-09-16 11:48:18,452][INFO] Loading target images and context images.
+[2020-09-16 11:48:18,452][INFO] Start diffusion.

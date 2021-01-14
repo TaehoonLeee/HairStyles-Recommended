@@ -1,0 +1,143 @@
+[2020-09-05 12:23:25,524][INFO] Loading model.
+[2020-09-05 12:23:36,228][INFO] Building graph.
+[2020-09-05 12:23:37,740][INFO] Setting configuration for optimization.
+[2020-09-05 12:23:42,955][INFO] Loading target images and context images.
+[2020-09-05 12:23:42,956][INFO] Start diffusion.
+[2020-09-06 06:15:07,576][INFO] Loading model.
+[2020-09-06 06:15:18,259][INFO] Building graph.
+[2020-09-06 06:15:19,773][INFO] Setting configuration for optimization.
+[2020-09-06 06:15:24,994][INFO] Loading target images and context images.
+[2020-09-06 06:15:24,994][INFO] Start diffusion.
+[2020-09-06 06:23:10,686][INFO] Loading model.
+[2020-09-06 06:23:21,309][INFO] Building graph.
+[2020-09-06 06:23:22,818][INFO] Setting configuration for optimization.
+[2020-09-06 06:23:28,015][INFO] Loading target images and context images.
+[2020-09-06 06:23:28,016][INFO] Start diffusion.
+[2020-09-06 06:23:28,018][INFO] None.
+[2020-09-06 06:29:16,470][INFO] Loading model.
+[2020-09-06 06:29:27,153][INFO] Building graph.
+[2020-09-06 06:29:28,666][INFO] Setting configuration for optimization.
+[2020-09-06 06:29:33,884][INFO] Loading target images and context images.
+[2020-09-06 06:29:33,885][INFO] target_list : ['000001.png'], num_targets : 1.
+[2020-09-06 06:29:33,885][INFO] context_list : ['000002.png'], num_contexts : 1.
+[2020-09-06 06:29:33,885][INFO] Start diffusion.
+[2020-09-06 06:29:33,887][INFO] None.
+[2020-09-06 06:33:42,566][INFO] Loading model.
+[2020-09-06 06:33:53,249][INFO] Building graph.
+[2020-09-06 06:33:54,758][INFO] Setting configuration for optimization.
+[2020-09-06 06:33:59,936][INFO] Loading target images and context images.
+[2020-09-06 06:33:59,936][INFO] target_list : ['000001.png'], num_targets : 1.
+[2020-09-06 06:33:59,936][INFO] context_list : ['000002.png'], num_contexts : 1.
+[2020-09-06 06:33:59,936][INFO] Start diffusion.
+[2020-09-06 06:36:35,663][INFO] Loading model.
+[2020-09-06 06:36:46,296][INFO] Building graph.
+[2020-09-06 06:36:47,816][INFO] Setting configuration for optimization.
+[2020-09-06 06:36:53,064][INFO] Loading target images and context images.
+[2020-09-06 06:36:53,065][INFO] target_list : ['examples/000001.png'], num_targets : 1.
+[2020-09-06 06:36:53,065][INFO] context_list : ['000002.png'], num_contexts : 1.
+[2020-09-06 06:36:53,065][INFO] Start diffusion.
+[2020-09-06 06:37:49,357][INFO] Loading model.
+[2020-09-06 06:38:00,011][INFO] Building graph.
+[2020-09-06 06:38:01,551][INFO] Setting configuration for optimization.
+[2020-09-06 06:38:06,787][INFO] Loading target images and context images.
+[2020-09-06 06:38:06,787][INFO] target_list : ['examples/000001.png'], num_targets : 1.
+[2020-09-06 06:38:06,787][INFO] context_list : ['examples/000002.png'], num_contexts : 1.
+[2020-09-06 06:38:06,787][INFO] Start diffusion.
+[2020-09-06 06:38:06,798][INFO] context_image in Loading process : [[[42 40 54]
+  [42 40 54]
+  [42 40 54]
+  ...
+  [50 47 64]
+  [50 47 64]
+  [50 47 64]]
+
+ [[44 42 56]
+  [44 42 56]
+  [44 42 56]
+  ...
+  [50 47 64]
+  [50 47 64]
+  [50 47 64]]
+
+ [[46 43 60]
+  [46 43 60]
+  [46 43 60]
+  ...
+  [50 47 64]
+  [50 47 64]
+  [50 47 64]]
+
+ ...
+
+ [[55 50 70]
+  [55 50 70]
+  [55 50 70]
+  ...
+  [58 55 74]
+  [58 55 74]
+  [58 55 74]]
+
+ [[55 50 70]
+  [55 50 70]
+  [55 50 70]
+  ...
+  [58 55 74]
+  [58 55 74]
+  [58 55 74]]
+
+ [[55 50 70]
+  [55 50 70]
+  [55 50 70]
+  ...
+  [57 54 73]
+  [57 54 73]
+  [57 54 73]]].
+[2020-09-06 06:38:06,800][INFO] target_image in Loading process : [[[47 34 25]
+  [47 34 25]
+  [46 34 24]
+  ...
+  [20 22 18]
+  [20 22 18]
+  [20 22 19]]
+
+ [[47 34 25]
+  [48 34 26]
+  [48 34 26]
+  ...
+  [20 22 18]
+  [20 22 18]
+  [20 22 19]]
+
+ [[47 34 25]
+  [48 35 26]
+  [48 35 26]
+  ...
+  [20 22 18]
+  [20 22 18]
+  [20 22 18]]
+
+ ...
+
+ [[28 29 26]
+  [28 29 26]
+  [28 29 26]
+  ...
+  [26 28 24]
+  [24 26 23]
+  [24 25 22]]
+
+ [[28 29 26]
+  [28 29 26]
+  [28 29 26]
+  ...
+  [25 27 23]
+  [24 26 23]
+  [22 24 21]]
+
+ [[28 29 26]
+  [28 29 26]
+  [28 29 26]
+  ...
+  [26 27 24]
+  [24 26 23]
+  [22 24 21]]].
